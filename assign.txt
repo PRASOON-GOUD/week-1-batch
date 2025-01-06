@@ -1,0 +1,15 @@
+1) Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+
+Types of datatypes:
+1)Primitive Datatypes--it can store single values, it is default.
+a)String- sequence of characters enclosed with double quotes ""/single quotes''/backticks``.
+b)number- it stores all the number data types such as integer , float values etc...
+c)Boolean - true/false .
+d)null -empty of object
+e)undefined - any variable declared but not initialized.
+
+
+2) Non-primitive Datatypes-- it can store multiple values, it is user-defined. It encapsulate logic and allow to call it multiple times.
+a)functions - A function in JavaScript is a block of reusable code that performs a specific task.
+b)arrays - An array is a special variable in JavaScript that can hold multiple values at once. These are ordered collections
+c)objects -  An object in JavaScript is a collection of key-value pairs (also known as properties). Store multiple related data in single entity.
