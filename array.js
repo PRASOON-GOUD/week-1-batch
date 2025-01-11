@@ -22,6 +22,7 @@ let fullstack = frontend.concat(backend);
 console.log(fullstack.join(" "));
 
 //objects
+function call(){
 let userdetails ={
     name:"Walter white",
     age:50,
@@ -31,4 +32,11 @@ let userdetails ={
     }
 
 }
-console.log(userdetails.address.area);
+document.writeln(userdetails.name);
+document.writeln("<br>");
+document.writeln(userdetails.age);
+document.writeln("<br>");
+document.writeln(userdetails.city);
+document.writeln("<br>");
+document.writeln(userdetails.address.area);
+}
