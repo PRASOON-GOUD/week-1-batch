@@ -21,7 +21,6 @@
 // let b=50;
 // console.log(b);
 
-
 // const c= true;
 // const c =false;
 // console.log(c);

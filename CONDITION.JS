@@ -48,3 +48,4 @@ else if(a < b){
 else {
     console.log("c is greater"+c);
 }
+
