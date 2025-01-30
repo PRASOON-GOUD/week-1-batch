@@ -43,7 +43,19 @@
 let form=document.querySelector("form");
 let username=document.getElementById("uName");
 let password=document.getElementById("uPass");
+let check=document.getElementById("check");
 let gender =document.getElementsByName("gender");
+
+check.addEventListener("click",event=>{
+    if(event.target.checked== true){
+        password.setAttribute("type","text");
+        show.innerText="hide password";
+
+    } else{
+        password.setAttribute("type", "password");
+        show.innerText="show password"
+    }
+})
 
 form.addEventListener("submit",event=>{
     event.preventDefault();
